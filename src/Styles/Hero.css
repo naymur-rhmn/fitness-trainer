@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+.hero-section {
+  background: url(../Assets/image/banner.webp), rgba(47, 45, 46, 0.5);
+  background-blend-mode: overlay;
+  background-position: 0% 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-content {
+  top: 150px;
+  position: relative;
+}
+
+.hero-text {
+  font-size: 5em;
+  font-weight: 500;
+  color: var(--white);
+  /* font-family: 'Koulen', cursive; */
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.hero-btn {
+  border: 1px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 20px;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.hero-btn:hover {
+  background-color: var(--merun);
+  border-color: var(--merun);
+
+}

@@ -1,0 +1,57 @@
+.footer-top {
+  border-top: 1px solid var(--black-02);
+  border-bottom: 1px solid var(--black-02);
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: .8em;
+}
+
+.footer ul li,
+.footer p {
+  font-size: 1.5em;
+  color: var(--black-02);
+  font-weight: 400;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: var(--black-02);
+}
+
+.newslatter,
+.subscr-txt {
+  max-width: 450px;
+}
+
+.newslatter .email {
+  width: 75%;
+}
+
+.newslatter .boxed-btn {
+  width: 20%;
+  padding: 5px;
+  color: var(--white);
+  border: 2px solid var(--merun);
+  background-color: var(--merun);
+  transition: .2s;
+  border-radius: 3px;
+  /* font-size: 16px; */
+  font-weight: 500;
+}
+
+.newslatter .boxed-btn:hover {
+  background-color: var(--black);
+  border-color: var(--black);
+}
+
+.copyright p {
+  font-size: 1.25em;
+  margin: 0;
+}
